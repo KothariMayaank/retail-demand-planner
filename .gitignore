@@ -1,0 +1,16 @@
+.venv*/
+deployment-package/
+.env
+.env.*
+!.env.example
+**/secrets.toml
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+data/uploads/*
+!data/uploads/.gitkeep
+outputs/*
+!outputs/.gitkeep

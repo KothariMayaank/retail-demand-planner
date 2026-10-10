@@ -1,0 +1,13 @@
+[server]
+# Do not fix a localhost-only bind here: hosting supplies its server settings.
+maxUploadSize = 10
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#167568"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F6F5"
+textColor = "#182D29"

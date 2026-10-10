@@ -1,0 +1,21 @@
+product_id,product_name,category,base_daily_demand,weekday_pattern,seasonal_amplitude,peak_day_of_year,two_year_growth,purchase_probability,lead_time_days,pack_size,minimum_order_qty
+P001,Rice 1 kg,Pantry,18,everyday,0.08,300,0.1,1,5,6,12
+P002,Wheat flour 1 kg,Pantry,13,everyday,0.12,330,0.05,1,5,6,12
+P003,Milk 1 L,Dairy,36,weekday,0.06,20,0.08,1,1,12,24
+P004,Bread loaf,Bakery,24,weekday,0.08,30,0.05,1,1,6,12
+P005,Eggs 6 pack,Dairy,15,weekend,0.1,345,0.06,1,2,6,12
+P006,Bottled water 1 L,Drinks,28,weekend,0.55,160,0.12,1,3,12,24
+P007,Cola 750 ml,Drinks,12,weekend,0.45,170,0.02,1,4,12,12
+P008,Fruit juice 1 L,Drinks,8,weekend,0.35,170,0.05,1,4,6,6
+P009,Tea 250 g,Pantry,7,everyday,0.28,15,0.06,1,7,6,6
+P010,Coffee 100 g,Pantry,5,weekday,0.3,10,0.1,1,7,6,6
+P011,Biscuits 200 g,Snacks,20,weekend,0.16,340,0.08,1,5,12,12
+P012,Potato chips 100 g,Snacks,16,weekend,0.14,320,0.06,1,5,12,12
+P013,Instant noodles 4 pack,Pantry,10,weekend,0.12,290,0.04,1,6,6,6
+P014,Cooking oil 1 L,Pantry,9,everyday,0.12,310,0.03,1,8,6,12
+P015,Laundry detergent 1 kg,Household,11,weekend,0.12,200,0.05,1,10,6,12
+P016,Bath soap 3 pack,Household,6,everyday,0.1,170,0.02,1,8,6,6
+P017,AA batteries 4 pack,Household,2.5,weekend,0.15,345,0.02,0.22,12,4,4
+P018,Shoe polish 50 g,Household,1.5,weekday,0.12,240,0,0.15,14,6,6
+P019,Birthday candles,Household,2,weekend,0.08,180,0.03,0.18,12,12,12
+P020,Specialty spice 50 g,Pantry,1.5,weekend,0.25,310,0.04,0.25,10,6,6

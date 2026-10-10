@@ -1,0 +1,63 @@
+{
+  "is_synthetic": true,
+  "store_count": 1,
+  "generator_version": 2,
+  "seed": 42,
+  "start_date": "2024-10-10",
+  "end_date": "2026-10-09",
+  "snapshot_date": "2026-10-09",
+  "product_count": 20,
+  "days_per_product": 730,
+  "sales_rows": 14600,
+  "intermittent_product_ids": [
+    "P017",
+    "P018",
+    "P019",
+    "P020"
+  ],
+  "stockout_days": 9,
+  "promotion_product_events": 14,
+  "observed_sales_units": 189392,
+  "latent_demand_units": 189700,
+  "lost_sales_units": 308,
+  "weekday_factors_monday_to_sunday": {
+    "everyday": [
+      0.92,
+      0.94,
+      0.96,
+      1.0,
+      1.08,
+      1.18,
+      1.12
+    ],
+    "weekend": [
+      0.8,
+      0.82,
+      0.85,
+      0.95,
+      1.15,
+      1.5,
+      1.35
+    ],
+    "weekday": [
+      1.15,
+      1.1,
+      1.1,
+      1.1,
+      1.05,
+      0.8,
+      0.75
+    ]
+  },
+  "gamma_shape": 18,
+  "sha256": {
+    "products.csv": "a5d73610c7a32d7a98fbdaf291b23ad6e4010b9b9fc9754e85e3eccad0ccc52e",
+    "sales.csv": "27e47c0401966d0d6cc833151317c462cd90d711315a421280fa26af32137702",
+    "inventory.csv": "bd50762a03f176041887536b6821dd88b3bbfa9ef6e8ea687a5e20ce75e2f9df",
+    "receipts.csv": "0f7b1e00a7bbb06893e750bf3ed0f2abdfa1ee98a72d6c313886bb2ad3fa9b09",
+    "reference/demand_reference.csv": "6db195b5bcd9643f5acb62108debd0d79dc23d6575204c5787d672d00838019e",
+    "reference/promotions.csv": "38568a7bc881d77771f156df5eb8ee197338a7625bfe30d3637c4de3495c3b61",
+    "reference/stockout_events.csv": "89c6656c7858cb9b61261f8edcf9992c112246958fc39c73be7594e0f4adb016",
+    "reference/product_profiles.csv": "a9ab37e627c5e1787e5dc8dd6e8940201cec8486f64dda3b8c3c521471a32c47"
+  }
+}

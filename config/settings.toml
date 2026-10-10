@@ -1,0 +1,14 @@
+[planning]
+forecast_horizon_days = 14
+review_period_days = 7
+service_level = 0.95
+random_seed = 42
+simulation_count = 1000
+safety_stock_policy = "demand_days"
+safety_stock_days = 2.0
+safety_stock_units = 10
+
+[data]
+max_upload_mb = 10
+sample_directory = "data/sample"
+template_directory = "data/templates"

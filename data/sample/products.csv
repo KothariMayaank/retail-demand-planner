@@ -1,0 +1,21 @@
+product_id,product_name,category,lead_time_days,review_period_days,service_level,pack_size,minimum_order_qty
+P001,Rice 1 kg,Pantry,5,7,0.95,6,12
+P002,Wheat flour 1 kg,Pantry,5,7,0.95,6,12
+P003,Milk 1 L,Dairy,1,7,0.95,12,24
+P004,Bread loaf,Bakery,1,7,0.95,6,12
+P005,Eggs 6 pack,Dairy,2,7,0.95,6,12
+P006,Bottled water 1 L,Drinks,3,7,0.95,12,24
+P007,Cola 750 ml,Drinks,4,7,0.95,12,12
+P008,Fruit juice 1 L,Drinks,4,7,0.95,6,6
+P009,Tea 250 g,Pantry,7,7,0.95,6,6
+P010,Coffee 100 g,Pantry,7,7,0.95,6,6
+P011,Biscuits 200 g,Snacks,5,7,0.95,12,12
+P012,Potato chips 100 g,Snacks,5,7,0.95,12,12
+P013,Instant noodles 4 pack,Pantry,6,7,0.95,6,6
+P014,Cooking oil 1 L,Pantry,8,7,0.95,6,12
+P015,Laundry detergent 1 kg,Household,10,7,0.95,6,12
+P016,Bath soap 3 pack,Household,8,7,0.95,6,6
+P017,AA batteries 4 pack,Household,12,7,0.95,4,4
+P018,Shoe polish 50 g,Household,14,7,0.95,6,6
+P019,Birthday candles,Household,12,7,0.95,12,12
+P020,Specialty spice 50 g,Pantry,10,7,0.95,6,6

@@ -1,0 +1,5 @@
+receipt_id,product_id,expected_date,quantity_units
+R-P006,P006,2026-10-12,300
+R-P009,P009,2026-10-16,66
+R-P015,P015,2026-10-19,132
+R-P018,P018,2026-10-23,6

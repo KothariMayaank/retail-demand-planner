@@ -4,6 +4,8 @@ A Python and Streamlit dashboard for one retail store with approximately 10–30
 
 **Status:** deployment preparation completed; no public app has been published. The recommended hosting entry point is `cloud_app.py`. [Deployment guide](docs/deployment.md) · [Project presentation and demo script](docs/project_presentation.md) · [Acceptance report](docs/acceptance_report.md).
 
+Source: [KothariMayaank/retail-demand-planner](https://github.com/KothariMayaank/retail-demand-planner). [GitHub verification](https://github.com/KothariMayaank/retail-demand-planner/actions/workflows/verify.yml) checks fresh installation, tests, startup and acceptance on Ubuntu/Python 3.12.
+
 **Project review, 10 October 2026:** corrected delivery-aware lost-sales replenishment, saved-run ID handling, cache provenance and audit reporting. **120 tests pass**, including independent stock-ledger checks. Read the [technical review and ML internship roadmap](docs/project_review.md) for the findings, evidence and next experiments.
 
 All included data and reported scores are **synthetic**. They do not establish real-store accuracy, business savings or guaranteed stockout prevention.
@@ -140,7 +142,7 @@ This is a deterministic periodic-review policy with delivery-aware lost-sales si
 .\.venv\Scripts\python.exe scripts/prepare_deployment.py
 ```
 
-The current Windows environment passes **120 tests**, with pandas future warnings treated as errors. The earlier fresh-environment deployment check passed 110 tests; this review reused the installed environment. Acceptance covers sample and uploaded fixtures, malformed files, short/zero/gapped histories, time alignment, leakage, metrics, range ranks, inventory arithmetic, exports and retraining. [Acceptance report](docs/acceptance_report.md). Linux CI is prepared but has not executed on GitHub, and no actual hosting build has run.
+The current Windows environment passes **120 tests**, with pandas future warnings treated as errors. The earlier fresh-environment deployment check passed 110 tests; this review reused the installed environment. Acceptance covers sample and uploaded fixtures, malformed files, short/zero/gapped histories, time alignment, leakage, metrics, range ranks, inventory arithmetic, exports and retraining. [Acceptance report](docs/acceptance_report.md). On 10 October 2026, [GitHub's Ubuntu/Python 3.12 verification passed](https://github.com/KothariMayaank/retail-demand-planner/actions/runs/38057606699) for code commit `54f2e3c`, including a fresh dependency installation, all 120 tests, startup, end-to-end acceptance and release packaging. No actual Streamlit hosting build has run.
 
 CSV and ZIP exports preserve calculation precision and label known synthetic sample results. Local runs save normalized inputs, trained JSON artifacts, evaluation and inventory tables, settings, dependency/source snapshots and hashes. Replay with `scripts/reproduce_run.py "outputs/runs/<run-directory>"`; add `--retrain` to verify the complete analysis with matching source code. Uploaded inputs and runs are excluded from the source release.
 
